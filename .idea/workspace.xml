@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf51fccd-3a5a-4604-b9c8-3b6910aaab29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/._photo-1487119998088-a65531a3ae5c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/photo-1487119998088-a65531a3ae5c.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ColorBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Colorpage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Colorpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Colorpage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Data.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581720395123</updated>
-      <workItem from="1581720397149" duration="6026000" />
+      <workItem from="1581720397149" duration="11894000" />
     </task>
     <servers />
   </component>
@@ -97,21 +90,21 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1018" y="474" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.859.1920.1057/2560.1047.1920.1177/0.0.2560.1440@0.0.2560.1440" timestamp="1581725367211" />
-    <state width="2539" height="423" key="GridCell.Tab.0.bottom" timestamp="1581721211458">
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom" timestamp="1581726478570">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.bottom/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581721211458" />
-    <state width="2539" height="423" key="GridCell.Tab.0.center" timestamp="1581721211454">
+    <state width="2539" height="423" key="GridCell.Tab.0.bottom/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581726478570" />
+    <state width="2539" height="423" key="GridCell.Tab.0.center" timestamp="1581726478566">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.center/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581721211454" />
-    <state width="2539" height="423" key="GridCell.Tab.0.left" timestamp="1581721211452">
+    <state width="2539" height="423" key="GridCell.Tab.0.center/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581726478566" />
+    <state width="2539" height="423" key="GridCell.Tab.0.left" timestamp="1581726478565">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.left/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581721211452" />
-    <state width="2539" height="423" key="GridCell.Tab.0.right" timestamp="1581721211455">
+    <state width="2539" height="423" key="GridCell.Tab.0.left/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581726478565" />
+    <state width="2539" height="423" key="GridCell.Tab.0.right" timestamp="1581726478568">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="2539" height="423" key="GridCell.Tab.0.right/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581721211455" />
+    <state width="2539" height="423" key="GridCell.Tab.0.right/-1920.836.1920.1080/2560.1024.1920.1200/0.0.2560.1440@0.0.2560.1440" timestamp="1581726478568" />
   </component>
 </project>

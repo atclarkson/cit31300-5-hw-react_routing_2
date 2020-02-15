@@ -3,7 +3,7 @@ import '../App.css';
 
 function Colorpage({match}) {
 
-    const [color, setColor] = useState(match.params.color);
+    const [color] = useState(match.params.color);
 
     const style = {
         width: '100vw',
@@ -13,7 +13,7 @@ function Colorpage({match}) {
 
     return (
         <div style={style}>
-            test
+
         </div>
     )
 

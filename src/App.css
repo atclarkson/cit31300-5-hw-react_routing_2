@@ -45,3 +45,65 @@ nav a {
   border-radius: 10px;
   border: 2px solid black;
 }
+
+.user-list a {
+   color: black;
+   text-decoration: none;
+ }
+.user-list {
+  list-style-type: none;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.user-deets {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 10px;
+}
+.movie-wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+}
+.movies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1000px;
+  align-self: center;
+}
+.movie {
+  margin: 30px;
+}
+.movie img {
+  height: 250px;
+}
+
+.cool-movies {
+  background: -webkit-linear-gradient(45deg, blue, lightblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.movie-desc {
+  max-width: 750px;
+  align-self: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+
+.movie-desc p {
+  width: 50%;
+align-self: center;
+}
+
+.movie-desc img {
+  width: fit-content;
+  height: 400px;
+  align-self: center;
+}
