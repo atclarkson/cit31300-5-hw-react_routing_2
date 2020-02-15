@@ -11,7 +11,7 @@ function Cool() {
     const [movies, setMovies] = useState([]);
 
     const fetchMovies = async () => {
-        const data = await fetch('http://www.omdbapi.com/?apikey=ea518254&s=cool');
+        const data = await fetch('https://www.omdbapi.com/?apikey=ea518254&s=cool');
         const movies = await data.json();
         console.log(movies.Search);
         setMovies(movies.Search);

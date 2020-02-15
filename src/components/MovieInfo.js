@@ -10,7 +10,7 @@ function MovieInfo({match}) {
     const [movie, setMovie] = useState([]);
 
     const fetchMovie = async () => {
-        const data = await fetch(`http://www.omdbapi.com/?apikey=ea518254&i=${match.params.id}`);
+        const data = await fetch(`https://www.omdbapi.com/?apikey=ea518254&i=${match.params.id}`);
         const movie = await data.json();
         console.log(movie);
         setMovie(movie);
